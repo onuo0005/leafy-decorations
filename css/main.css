@@ -8,10 +8,12 @@ html {
 
 .logo {
   text-align: center;
+
 }
 
 .nav {
   text-align: center;
+
 }
 
 .nav a {
@@ -23,11 +25,18 @@ html {
 }
 
 .banner {
-
+  background-image: url("../images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 300px;
 }
 
 .banner-content {
-
+  background-image: url("../images/two-leaves.svg");
+  background-position: .5em -.2em;
+  background-size: 6em auto;
+  background-repeat: no-repeat;
+  padding-top: 7em;
 }
 
 @media only screen and (min-width: 60em) {
